@@ -1,5 +1,5 @@
 % Specify the folder where the files live.
-myFolder = 'C:\Users\Dell\OneDrive\Documents\MATLAB\Petals\useful';
+myFolder = 'E:\OneDrive\MUICT Year 4 Semester 1\Digital Image Processing\image-processing-project\useful';
 
 % Check to make sure that folder actually exists.  Warn user if it doesn't.
 if ~isdir(myFolder)
@@ -27,7 +27,7 @@ for k = 1 : length(theFiles)
     global rgbImage;
     global filename;
     global excel;
-    excel = 'C:\Users\Dell\OneDrive\Documents\MATLAB\test.xlsx';
+    excel = 'E:\OneDrive\MUICT Year 4 Semester 1\Digital Image Processing\image-processing-project\test_me.xlsx';
 
     tab = xlsread(excel);
     [rr, cc0] = size(tab);
